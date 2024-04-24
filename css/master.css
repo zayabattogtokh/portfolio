@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+html{
+    display: flex;
+    flex-flow: row nowrap;  
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    background:#272525;
+}
+
+body {
+    background-color: #272525;
+    color: #f3f3f3;
+    background-repeat: no-repeat;
+    font-family: 'Roboto',sans-serif;
+}
+
+.bio {
+    position: relative;
+    display: inline-flex;    
+    width: 100%;
+    flex-wrap: wrap;
+}
+.bio .col1 {
+    width: 30%;
+}
+.bio .col2 {
+    width: 66%;
+}
+.icon_img {
+    width: 266px;
+    height: 266px;
+}
+h1 {
+    margin: 30px;
+    font-weight: lighter;
+}
+.col2 h2 {
+    font-family: 'Caveat';
+    font-size: 30px;
+    font-weight: lighter;
+    color: #b6b6b6;
+}
+.msg {
+    color: #d9d9d9;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.contact {
+    color: #f3f3f3;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 15px;
+}
+.b {
+    font-weight: bold;
+}
+.item-container {
+    position: relative;
+    display: inline-flex;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.item {
+    width: 25%;
+}
+.item h1 {
+    color: #b6b6b6;
+    font-size: 18px;
+    margin: 0px;
+    font-weight: lighter;
+}
+.item li {
+    margin-left: 30%;
+    color: #d9d9d9;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: start;
+}
+.skills {
+    background-color: #b6b6b6;
+    padding: 30px;
+}
+.full_img {
+    width: 70%;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    color: #b6b6b6;
+    bottom: 0px;
+    text-align: center;
+}
